@@ -1,0 +1,48 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Custom styles to override or enhance Tailwind */
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.chart-card {
+    background-color: #ffffff;   
+    border-radius: 0.5rem;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.echart-container {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+}
+
+#map-grafico {
+    height: 500px;
+}
+
+select {
+    appearance: none;
+    /* Remove default arrow */
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    width: 100px;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+}
